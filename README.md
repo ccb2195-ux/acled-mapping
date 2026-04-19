@@ -1,12 +1,8 @@
-# ACLED MENA - Excessive Force Against Protesters
+# Tracking Excessive Force Against Protesters in Iran (2016-2026)
 
-Interactive visualization mapping ACLED's MENA dataset of excessive force incidents against protesters from 2016 to present.
+## 🌐 My Site
 
-## 🌐 View Live Site
-
-Visit the interactive map: (https://ccb2195-ux.github.io/ACLED_MENA_EVAP_Mapping/)
-
-*(Replace YOUR_USERNAME with your GitHub username)*
+Visit the interactive map: (https://ccb2195-ux.github.io/acled-mapping/)
 
 ## MY GOALS ->
 - I wanted to get comfortable both analyzing and mapping ACLED data as I'm sure it will be coming up a lot for me. While I feel like I got a lot better at understand the ACLED data, I don't feel confident yet in my story telling ability across mediums (from Analysis -> dev -> writing -> publishing).
@@ -19,20 +15,7 @@ Visit the interactive map: (https://ccb2195-ux.github.io/ACLED_MENA_EVAP_Mapping
 
 - I did all the analysis myself in R & python, and I employed Claude Code to help me quickly build the site. All of the Text on the site is written by me, but Claude helped my transition my ggplot from Rstudio into an Altair graphic since I can't seem to get the %%R magic box working in my python instance. 
 
-## 📊 Features
-
-- **Interactive Map**: Explore geographic distribution with timeline slider
-- **Temporal Analysis**: Density plot showing event frequency over time
-- **Mobile Responsive**: Optimized for desktop, tablet, and mobile viewing
-- **Data-Driven**: Built with ACLED (Armed Conflict Location & Event Data Project) data
-
-## 🛠️ Built With
-
-- **Python**: Data processing and analysis
-- **Folium**: Interactive mapping with Leaflet.js
-- **Altair**: Statistical visualizations
-- **Pandas**: Data manipulation
-- **GitHub Pages**: Static site hosting
+## This Project uses Python, Pandas, Folium, & Altair
 
 ## 📁 Project Structure
 
@@ -45,15 +28,6 @@ Visit the interactive map: (https://ccb2195-ux.github.io/ACLED_MENA_EVAP_Mapping
 └── SETUP_GITHUB_PAGES.md     # Deployment guide
 ```
 
-## 🚀 Setup & Deployment
+## Data
 
-See [SETUP_GITHUB_PAGES.md](SETUP_GITHUB_PAGES.md) for detailed instructions on deploying to GitHub Pages.
-
-## 📖 Data Source
-
-Data provided by the [Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/), which collects real-time data on political violence and protest events worldwide.
-
-## 📄 License
-
-Data: ACLED (check ACLED's terms of use for data licensing)
-Code: MIT License
+Data provided by the [Armed Conflict Location & Event Data Project (ACLED)](https://acleddata.com/), from which I took all avaialble incident data from the MENA region and fitlered from their in my notebookes. 
