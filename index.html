@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Interactive map visualization of excessive force against protesters in the MENA region">
-    <title>Violence against protesters explodes across Iran in 2025</title>
+    <title>How Bad Was Iran's Violent Crackdown on Protesters?</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cooper+Hewitt:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -15,83 +15,214 @@
             box-sizing: border-box;
         }
 
+        /* Economist-style red rule at top */
         body {
-            font-family: 'Cooper Hewitt', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f5f5f5;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.7;
+            color: #1a1a1a;
+            background: #fff;
+            border-top: 4px solid #D0021B;
         }
 
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0;
+        /* ── Top nav strip ── */
+        .site-nav {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.65rem 1.5rem;
+            border-bottom: 1px solid #e0e0e0;
         }
 
-        header {
-            background: linear-gradient(135deg, #0f2aa1 0%, #5ca98e 100%);
-            color: white;
-            padding: 2rem 1.5rem;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        header h1 {
-            font-size: clamp(1.5rem, 4vw, 2.5rem);
-            margin-bottom: 0.5rem;
+        .nav-badge {
+            font-size: 0.65rem;
             font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #D0021B;
+            border: 1px solid #D0021B;
+            padding: 2px 7px;
         }
 
-        header p {
-            font-size: clamp(0.9rem, 2vw, 1.1rem);
-            opacity: 0.95;
-            max-width: 800px;
+        .nav-section {
+            font-size: 0.68rem;
+            font-weight: 500;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #888;
         }
 
-        .content {
-            padding: 2rem 1.5rem;
+        /* ── Article header ── */
+        .article-header {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 2.75rem 1.5rem 2rem;
         }
 
-        .section {
-            background: white;
-            border-radius: 12px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+        .article-kicker {
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #D0021B;
+            margin-bottom: 0.85rem;
         }
 
-        .section h2 {
-            color: #0f2aa1;
+        .article-headline {
+            font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+            font-size: clamp(2rem, 5vw, 3.1rem);
+            font-weight: 700;
+            line-height: 1.12;
+            color: #111;
             margin-bottom: 1rem;
-            font-size: clamp(1.3rem, 3vw, 1.8rem);
         }
 
-        .section p {
+        .article-deck {
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: #444;
+            line-height: 1.55;
+            margin-bottom: 1.5rem;
+        }
+
+        .article-meta {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 0.5rem 0.85rem;
+            font-size: 0.78rem;
+            color: #999;
+            border-top: 1px solid #e8e8e8;
+            padding-top: 1rem;
+        }
+
+        .article-meta .author {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .article-meta .sep {
+            color: #ccc;
+        }
+
+        /* ── Hero image ── */
+        .article-hero {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .article-hero img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .hero-credit {
+            font-size: 0.7rem;
+            color: #aaa;
+            text-align: right;
+            margin-top: 0.3rem;
+            letter-spacing: 0.02em;
+        }
+
+        /* ── Article body ── */
+        .article-body {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem 3rem;
+        }
+
+        .article-body p {
+            font-size: 1.05rem;
+            line-height: 1.78;
+            color: #1a1a1a;
+            margin-bottom: 1.4rem;
+        }
+
+        .article-body a {
+            color: #1a1a1a;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+            text-decoration-color: #bbb;
+        }
+
+        .article-body a:hover {
+            color: #D0021B;
+            text-decoration-color: #D0021B;
+        }
+
+        /* ── Section breaks ── */
+        .section-rule {
+            border: none;
+            border-top: 2px solid #111;
+            margin: 2.5rem 0 1.25rem;
+        }
+
+        .section-label {
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.13em;
+            text-transform: uppercase;
+            color: #999;
+            margin-bottom: 0.4rem;
+        }
+
+        .section-heading {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: clamp(1.25rem, 3vw, 1.7rem);
+            font-weight: 700;
+            color: #111;
+            line-height: 1.25;
+            margin-bottom: 1.25rem;
+        }
+
+        /* ── Figures ── */
+        .figure {
+            margin: 2.25rem 0;
+            border-top: 2px solid #111;
+            padding-top: 0.6rem;
+        }
+
+        .figure-title {
+            font-size: 0.78rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.07em;
+            color: #111;
+            margin-bottom: 0.2rem;
+        }
+
+        .figure-subtitle {
+            font-size: 0.82rem;
             color: #666;
             margin-bottom: 1rem;
-            line-height: 1.7;
+            line-height: 1.4;
         }
 
-        .density-plot {
-            text-align: center;
-            margin: 1.5rem 0;
-        }
-
-        .density-plot img {
+        .figure img {
             max-width: 100%;
             height: auto;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: block;
         }
 
+        .figure-note {
+            font-size: 0.74rem;
+            color: #999;
+            margin-top: 0.6rem;
+            line-height: 1.45;
+        }
+
+        .figure-note a {
+            color: #777;
+        }
+
+        /* ── Map ── */
         .map-container {
             position: relative;
             width: 100%;
             height: 0;
-            padding-bottom: 60%; /* 16:9 ratio - adjust as needed */
+            padding-bottom: 62%;
             overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            margin-top: 1.5rem;
         }
 
         .map-container iframe {
@@ -100,142 +231,284 @@
             left: 0;
             width: 100%;
             height: 100%;
-            border: none;
+            border: 1px solid #e8e8e8;
         }
 
-        .info-box {
-            background: #f8f9ff;
-            border-left: 4px solid #667eea;
-            padding: 1rem 1.5rem;
+        /* ── Note / how-to box ── */
+        .note-box {
+            background: #f9f9f9;
+            border-left: 3px solid #ddd;
+            padding: 0.75rem 1rem;
             margin: 1.5rem 0;
-            border-radius: 4px;
-        }
-
-        .info-box p {
-            margin: 0;
+            font-size: 0.85rem;
             color: #555;
+            line-height: 1.55;
         }
 
+        /* ── Footer ── */
         footer {
-            background: #2d3748;
-            color: #a0aec0;
+            border-top: 1px solid #e0e0e0;
+            margin-top: 2rem;
+            padding: 1.5rem;
             text-align: center;
-            padding: 2rem 1.5rem;
-            margin-top: 3rem;
         }
 
         footer p {
-            font-size: 0.9rem;
+            font-size: 0.76rem;
+            color: #aaa;
         }
 
         footer a {
-            color: #667eea;
-            text-decoration: none;
-        }
-
-        footer a:hover {
+            color: #888;
             text-decoration: underline;
+            text-underline-offset: 2px;
         }
 
-        /* Mobile optimizations */
+        /* ── Responsive ── */
         @media (max-width: 768px) {
-            .section {
-                padding: 1.5rem;
-                margin-bottom: 1.5rem;
+            .article-header,
+            .article-body {
+                padding-left: 1rem;
+                padding-right: 1rem;
             }
 
             .map-container {
-                padding-bottom: 75%; /* Optimized for compact timeline controls */
-                min-height: 400px; /* Ensure usable minimum height */
-            }
-
-            header {
-                padding: 1.5rem 1rem;
-            }
-
-            .content {
-                padding: 1rem;
+                padding-bottom: 75%;
+                min-height: 400px;
             }
         }
 
-        /* Small mobile */
         @media (max-width: 480px) {
             .map-container {
-                padding-bottom: 90%; /* Balanced ratio for small screens with compact controls */
+                padding-bottom: 90%;
                 min-height: 350px;
             }
         }
     </style>
+
+    <!-- ai2html styles -->
+    <style media="screen,print">
+        .ai2html { margin: 0 -1.5rem; overflow: hidden; }
+        @media (max-width: 768px) { .ai2html { margin: 0 -1rem; } }
+        .ai2html .g-artboard { margin: 0 auto; }
+        .ai2html p { margin: 0; }
+        .ai2html .g-aiAbs { position: absolute; }
+        .ai2html .g-aiImg { position: absolute; top: 0; display: block; width: 100% !important; }
+        .ai2html .g-aiPointText p { white-space: nowrap; }
+
+        #g-violence-over-time_svg-Artboard_1 { position: relative; overflow: hidden; display: none; }
+        @container (width >= 700px) {
+            #g-violence-over-time_svg-Artboard_1 { display: block; }
+        }
+        #g-violence-over-time_svg-Artboard_1 p { font-family: arial,helvetica,sans-serif; line-height: 14px; height: auto; opacity: 1; letter-spacing: 0em; font-size: 12px; text-align: left; color: rgb(0,0,0); text-transform: none; padding-bottom: 0; padding-top: 0; mix-blend-mode: normal; font-style: normal; font-weight: regular; position: static; }
+        #g-violence-over-time_svg-Artboard_1 .g-pstyle0 { font-weight: 700; line-height: 17px; height: 17px; font-size: 14px; }
+        #g-violence-over-time_svg-Artboard_1 .g-pstyle1 { height: 14px; color: rgb(96,96,96); }
+        #g-violence-over-time_svg-Artboard_1 .g-pstyle2 { font-weight: 500; line-height: 11px; height: 11px; font-size: 9px; }
+        #g-violence-over-time_svg-Artboard_1 .g-pstyle3 { height: 14px; }
+        #g-violence-over-time_svg-Artboard_1 .g-pstyle4 { font-weight: 500; line-height: 11px; height: 11px; font-size: 9px; text-align: center; color: rgb(102,102,102); }
+
+        #g-violence-over-time_svg-Artboard_2 { position: relative; overflow: hidden; display: none; }
+        @container (width >= 490px) and (width < 700px) {
+            #g-violence-over-time_svg-Artboard_2 { display: block; }
+        }
+        #g-violence-over-time_svg-Artboard_2 p { font-family: arial,helvetica,sans-serif; line-height: 12px; height: auto; opacity: 1; letter-spacing: 0em; font-size: 10px; text-align: left; color: rgb(0,0,0); text-transform: none; padding-bottom: 0; padding-top: 0; mix-blend-mode: normal; font-style: normal; font-weight: regular; position: static; }
+        #g-violence-over-time_svg-Artboard_2 .g-pstyle0 { font-weight: 700; line-height: 14px; height: 14px; font-size: 12px; }
+        #g-violence-over-time_svg-Artboard_2 .g-pstyle1 { height: 12px; color: rgb(96,96,96); }
+        #g-violence-over-time_svg-Artboard_2 .g-pstyle2 { font-weight: 500; line-height: 11px; height: 11px; font-size: 9px; }
+        #g-violence-over-time_svg-Artboard_2 .g-pstyle3 { height: 12px; }
+        #g-violence-over-time_svg-Artboard_2 .g-pstyle4 { font-weight: 500; line-height: 11px; height: 11px; font-size: 9px; text-align: center; color: rgb(102,102,102); }
+        #g-violence-over-time_svg-Artboard_2 .g-pstyle5 { line-height: 10px; height: 10px; font-size: 8px; }
+
+        #g-violence-over-time_svg-Artboard_3 { position: relative; overflow: visible; }
+        @container (width >= 490px) {
+            #g-violence-over-time_svg-Artboard_3 { display: none; }
+        }
+        #g-violence-over-time_svg-Artboard_3 p { font-family: arial,helvetica,sans-serif; line-height: 14px; height: auto; opacity: 1; letter-spacing: 0em; font-size: 12px; text-align: left; color: rgb(0,0,0); text-transform: none; padding-bottom: 0; padding-top: 0; mix-blend-mode: normal; font-style: normal; font-weight: regular; position: static; }
+        #g-violence-over-time_svg-Artboard_3 .g-pstyle0 { font-weight: 700; line-height: 13px; height: 13px; font-size: 11px; }
+        #g-violence-over-time_svg-Artboard_3 .g-pstyle1 { line-height: 11px; height: 11px; font-size: 9px; color: rgb(96,96,96); }
+        #g-violence-over-time_svg-Artboard_3 .g-pstyle2 { line-height: 10px; height: 10px; font-size: 8px; }
+        #g-violence-over-time_svg-Artboard_3 .g-pstyle3 { height: 14px; }
+        #g-violence-over-time_svg-Artboard_3 .g-pstyle4 { font-weight: 500; line-height: 11px; height: 11px; font-size: 9px; }
+        #g-violence-over-time_svg-Artboard_3 .g-pstyle5 { font-weight: 500; line-height: 11px; height: 11px; font-size: 9px; color: rgb(102,102,102); }
+    </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>How Bad was Iran's Violent Crackdown on Protesters?</h1>
-            <p>Mapping ACLED's Excessive Use of Force Against Protesters Data</p>
+
+    <nav class="site-nav">
+        <span class="nav-badge">Analysis</span>
+        <span class="nav-section">Middle East &amp; North Africa</span>
+    </nav>
+
+    <header class="article-header">
+        <p class="article-kicker">Iran Protests 2025–26</p>
+        <h1 class="article-headline">How Bad Was Iran's Violent Crackdown on Protesters?</h1>
+        <p class="article-deck">A decade of ACLED data on excessive force reveals the full scale of the regime's assault — and why this time was different.</p>
+        <div class="article-meta">
+            <span class="author">Craig Bonder</span>
+            <span class="sep">·</span>
+            <span>January 28, 2026</span>
+            <span class="sep">·</span>
+            <span>Data: ACLED</span>
         </div>
     </header>
 
-    <div class="container">
-        <div class="content">
-            <!-- Density Plot Section -->
-            <section class="section">
-                <h2>The Worst Crackdown on Protesters in a Decade</h2>
-                <p>Due to a sharply declining currency, a series of protests sprung up across Iran which would eventually
-                    lead to a nation-wide internet blackout, and an unprecedented wave of attacks on protesters. 
-                    The Iranian political establishment had weathered protests like this before 
-                    (like the Women, Life, and Freedom Movement from 2023), though something was different this time. </p>
+    <div class="article-hero">
+        <img src="Iran2026.webp" alt="Protests in Iran, 2026">
+        <p class="hero-credit">Sohrab/Middle East Images / AFP via Getty Images</p>
+    </div>
 
-                <p>On January 8th, 2026, the Iranian government launched a full-scale internet blackout;
-                    a smokescreen which would provide cover for the regime's relentless assault on protesters
-                    around the country. The scale of the crackdown shocked the world, with photos and videos 
-                    slowly trickling out of Iran through hidden networks and satellite uploads, 
-                    with <a href="https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/">Time</a>
-                    recently reporting that the death toll could be as high as 30,000. 
+    <div class="article-body">
 
-This timeline shows the frequency of excessive force incidents against protesters across the MENA region from 2016 to present.</p>
-                <div class="density-plot">
-                    <img src="density_plot.png" alt="ACLED Event density timeline showing excessive force incidents over time">
+        <hr class="section-rule">
+        <p class="section-label">The Crackdown</p>
+        <h2 class="section-heading">The Worst in a Decade</h2>
+
+        <p>Due to a sharply declining currency, a series of protests sprung up across Iran which would eventually
+            lead to a nation-wide internet blackout, and an unprecedented wave of attacks on protesters.
+            The Iranian political establishment had weathered protests like this before —
+            including the Women, Life, and Freedom Movement of 2022–23 — though something was different this time.</p>
+
+        <p>On January 8th, 2026, the Iranian government launched a full-scale internet blackout;
+            a smokescreen which would provide cover for the regime's relentless assault on protesters
+            around the country. The scale of the crackdown shocked the world, with photos and videos
+            slowly trickling out through hidden networks and satellite uploads.
+            <a href="https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/">Time</a>
+            recently reported that the death toll could be as high as 30,000.</p>
+
+        <div class="figure">
+            <div id="g-violence-over-time.svg-box" class="ai2html" style="container-type: inline-size;">
+                <!-- Artboard: Artboard_1 -->
+                <div id="g-violence-over-time_svg-Artboard_1" class="g-artboard" style="width:700px; height:280px;" data-aspect-ratio="2.5" data-min-width="700">
+                    <div style=""></div>
+                    <img class="g-aiImg" alt="" src="ai2html-output/violence-over-time_svg-Artboard_1.png"/>
+                    <div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:7.0241%;margin-top:-9.7px;left:6.4682%;width:436px;"><p class="g-pstyle0">Iran&rsquo;s Violence Against Protestors Drives the Region</p></div>
+                    <div id="g-ai0-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:13.9633%;margin-top:-8.1px;left:6.4682%;width:497px;"><p class="g-pstyle1">Weekly protest violence incidents across MENA as recorded by ACLED up to March 2026</p></div>
+                    <div id="g-ai0-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:13.8665%;margin-top:-5.8px;left:2.1%;width:38px;"><p class="g-pstyle2">160</p></div>
+                    <div id="g-ai0-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:22.7951%;margin-top:-5.8px;left:2.1%;width:38px;"><p class="g-pstyle2">140</p></div>
+                    <div id="g-ai0-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:28.249%;margin-top:-8.1px;left:60.9714%;width:198px;"><p class="g-pstyle3">Protests erupt in December 2025</p></div>
+                    <div id="g-ai0-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:32.0808%;margin-top:-5.8px;left:2.1%;width:38px;"><p class="g-pstyle2">120</p></div>
+                    <div id="g-ai0-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:33.6061%;margin-top:-8.1px;left:60.9714%;width:211px;"><p class="g-pstyle3">over a sharp drop in Iran&rsquo;s currency</p></div>
+                    <div id="g-ai0-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="transform:matrix(0,-1,1,0,0,0);transform-origin:50% 58.5819644653034%;top:50.2951%;margin-top:-5.8px;left:1.1769%;margin-left:-48px;width:96px;"><p class="g-pstyle4">Weekly incidents</p></div>
+                    <div id="g-ai0-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:41.3665%;margin-top:-5.8px;left:2.1%;width:38px;"><p class="g-pstyle2">100</p></div>
+                    <div id="g-ai0-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:48.6061%;margin-top:-8.1px;left:15.5429%;width:242px;"><p class="g-pstyle3">Water shortages spark the largest Iranian</p></div>
+                    <div id="g-ai0-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.6522%;margin-top:-5.8px;left:2.8857%;width:33px;"><p class="g-pstyle2">80</p></div>
+                    <div id="g-ai0-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:53.6061%;margin-top:-8.1px;left:15.5429%;width:275px;"><p class="g-pstyle3">protests in a decade, with swift police retaliation</p></div>
+                    <div id="g-ai0-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:59.5808%;margin-top:-5.8px;left:2.8857%;width:33px;"><p class="g-pstyle2">60</p></div>
+                    <div id="g-ai0-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:68.8665%;margin-top:-5.8px;left:2.8857%;width:33px;"><p class="g-pstyle2">40</p></div>
+                    <div id="g-ai0-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:78.1522%;margin-top:-5.8px;left:2.8857%;width:33px;"><p class="g-pstyle2">20</p></div>
+                    <div id="g-ai0-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:87.4379%;margin-top:-5.8px;left:3.6714%;width:27px;"><p class="g-pstyle2">0</p></div>
+                    <div id="g-ai0-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:4.0715%;width:40px;"><p class="g-pstyle2">2015</p></div>
+                    <div id="g-ai0-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:12%;width:40px;"><p class="g-pstyle2">2016</p></div>
+                    <div id="g-ai0-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:19.9571%;width:40px;"><p class="g-pstyle2">2017</p></div>
+                    <div id="g-ai0-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:27.8857%;width:40px;"><p class="g-pstyle2">2018</p></div>
+                    <div id="g-ai0-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:35.8286%;width:40px;"><p class="g-pstyle2">2019</p></div>
+                    <div id="g-ai0-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:43.7571%;width:40px;"><p class="g-pstyle2">2020</p></div>
+                    <div id="g-ai0-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:51.7143%;width:40px;"><p class="g-pstyle2">2021</p></div>
+                    <div id="g-ai0-24" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:59.6429%;width:40px;"><p class="g-pstyle2">2022</p></div>
+                    <div id="g-ai0-25" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:67.5715%;width:40px;"><p class="g-pstyle2">2023</p></div>
+                    <div id="g-ai0-26" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:75.5%;width:40px;"><p class="g-pstyle2">2024</p></div>
+                    <div id="g-ai0-27" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:83.4572%;width:40px;"><p class="g-pstyle2">2025</p></div>
+                    <div id="g-ai0-28" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:97.0806%;margin-top:-5.8px;left:91.3858%;width:40px;"><p class="g-pstyle2">2026</p></div>
                 </div>
-                <div class="info-box">
-                    <p><strong>Note:</strong> Each bar represents one week of recorded events in the ACLED Data. Data sourced from
-                        <a href="https://acleddata.com/aggregated/aggregated-data-middle-east">ACLED aggregated Middle East data</a> on February 5th, 2026.</p>
+                <!-- Artboard: Artboard_2 -->
+                <div id="g-violence-over-time_svg-Artboard_2" class="g-artboard" style="width:490px; height:280px;" data-aspect-ratio="1.75" data-min-width="490" data-max-width="699">
+                    <div style=""></div>
+                    <img class="g-aiImg" alt="" src="ai2html-output/violence-over-time_svg-Artboard_2.png"/>
+                    <div id="g-ai1-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:5.7145%;margin-top:-8px;left:7.2254%;width:377px;"><p class="g-pstyle0">Iran&rsquo;s Violence Against Protestors Drives the Region</p></div>
+                    <div id="g-ai1-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:12.4695%;margin-top:-6.9px;left:7.2254%;width:418px;"><p class="g-pstyle1">Weekly protest violence incidents across MENA as recorded by ACLED up to March 2026</p></div>
+                    <div id="g-ai1-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:12.0808%;margin-top:-5.8px;left:1.552%;width:38px;"><p class="g-pstyle2">160</p></div>
+                    <div id="g-ai1-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:21.3665%;margin-top:-5.8px;left:1.552%;width:38px;"><p class="g-pstyle2">140</p></div>
+                    <div id="g-ai1-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:23.1838%;margin-top:-6.9px;left:50.5111%;width:169px;"><p class="g-pstyle3">Protests erupt in December 2025</p></div>
+                    <div id="g-ai1-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:27.4695%;margin-top:-6.9px;left:50.5111%;width:179px;"><p class="g-pstyle3">over a sharp drop in Iran&rsquo;s currency</p></div>
+                    <div id="g-ai1-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:30.6522%;margin-top:-5.8px;left:1.552%;width:38px;"><p class="g-pstyle2">120</p></div>
+                    <div id="g-ai1-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="transform:matrix(0,-1,1,0,0,0);transform-origin:50% 58.5819644653034%;top:48.5093%;margin-top:-5.8px;left:-0.379%;margin-left:-48px;width:96px;"><p class="g-pstyle4">Weekly incidents</p></div>
+                    <div id="g-ai1-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:39.5808%;margin-top:-5.8px;left:1.552%;width:38px;"><p class="g-pstyle2">100</p></div>
+                    <div id="g-ai1-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:47.1123%;margin-top:-6.9px;left:7.7765%;width:205px;"><p class="g-pstyle3">Water shortages spark the largest Iranian</p></div>
+                    <div id="g-ai1-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:48.8665%;margin-top:-5.8px;left:2.6744%;width:33px;"><p class="g-pstyle2">80</p></div>
+                    <div id="g-ai1-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:51.3981%;margin-top:-6.9px;left:7.7765%;width:233px;"><p class="g-pstyle3">protests in a decade, with swift police retaliation</p></div>
+                    <div id="g-ai1-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:58.1522%;margin-top:-5.8px;left:2.6744%;width:33px;"><p class="g-pstyle2">60</p></div>
+                    <div id="g-ai1-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:67.4379%;margin-top:-5.8px;left:2.6744%;width:33px;"><p class="g-pstyle2">40</p></div>
+                    <div id="g-ai1-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:76.3665%;margin-top:-5.8px;left:2.6744%;width:33px;"><p class="g-pstyle2">20</p></div>
+                    <div id="g-ai1-16" class="g-violence-over-time_svg-Artboard_2 g-aiAbs g-aiPointText" style="top:85.6522%;margin-top:-5.8px;left:3.7969%;width:27px;"><p class="g-pstyle2">0</p></div>
+                    <div id="g-ai1-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:93.8327%;margin-top:-5.7px;left:4.2051%;width:40px;"><p class="g-pstyle5">2015</p></div>
+                    <div id="g-ai1-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:93.8327%;margin-top:-5.7px;left:20.9601%;width:31px;"><p class="g-pstyle5">17</p></div>
+                    <div id="g-ai1-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:93.8327%;margin-top:-5.7px;left:37.0213%;width:31px;"><p class="g-pstyle5">19</p></div>
+                    <div id="g-ai1-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:93.8327%;margin-top:-5.7px;left:52.8785%;width:31px;"><p class="g-pstyle5">21</p></div>
+                    <div id="g-ai1-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:93.8327%;margin-top:-5.7px;left:68.8377%;width:31px;"><p class="g-pstyle5">23</p></div>
+                    <div id="g-ai1-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:93.8327%;margin-top:-5.7px;left:84.7561%;width:31px;"><p class="g-pstyle5">25</p></div>
                 </div>
-            </section>
-
-            <!-- Interactive Map Section -->
-            <section class="section">
-                <h2>Interactive Map</h2>
-                <p>While the Iranian people are no strangers to government violence, the current round of crackdowns
-                represents a roughly 300% increase in violent incidents recorded against protesters compared to the
-                last high-water-mark in November of 2022. </p>
-                <p> <a href="https://www.amnesty.org/en/latest/campaigns/2026/01/what-happened-at-the-protests-in-iran/">Amnesty International</a>
-                 reports that the Iran security forces engaged protesters with small arms, mass arrests, and disappearances
-                 across all of Iran's 31 provinces. Amnesty was able to confirm at least one hospital was operating a makeshift morgue,
-                with at least 205 unique body bags. </p>
-                <p></p>
-
-                <div class="info-box">
-                    <p><strong>How to use:</strong> Use the timeline slider at the bottom of the map to see how events evolved over time. Click on markers for detailed information about specific incidents.</p>
+                <!-- Artboard: Artboard_3 (mobile) -->
+                <div id="g-violence-over-time_svg-Artboard_3" class="g-artboard" style="max-width:375px;max-height:590px;" data-aspect-ratio="0.636" data-min-width="0" data-max-width="489">
+                    <div style="padding:0 0 157.3333% 0;"></div>
+                    <img class="g-aiImg" alt="" src="ai2html-output/violence-over-time_svg-Artboard_3.png"/>
+                    <div id="g-ai2-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:4.308%;margin-top:-7.4px;left:3.036%;width:347px;"><p class="g-pstyle0">Iran&rsquo;s Violence Against Protestors Drives the Region</p></div>
+                    <div id="g-ai2-2" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:7.5123%;margin-top:-6.3px;left:3.036%;width:379px;"><p class="g-pstyle1">Weekly protest violence incidents across MENA as recorded by ACLED up to March 2026</p></div>
+                    <div id="g-ai2-3" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:15.7172%;margin-top:-5.7px;left:3.836%;width:40px;"><p class="g-pstyle2">2015</p></div>
+                    <div id="g-ai2-4" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:28.9375%;margin-top:-5.7px;left:6.2628%;width:31px;"><p class="g-pstyle2">17</p></div>
+                    <div id="g-ai2-5" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:42.3274%;margin-top:-5.7px;left:6.2628%;width:31px;"><p class="g-pstyle2">19</p></div>
+                    <div id="g-ai2-6" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:45.7792%;margin-top:-8.1px;left:40.2893%;width:202px;"><p class="g-pstyle3">Water shortages spark the largest</p></div>
+                    <div id="g-ai2-7" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:48.3216%;margin-top:-8.1px;left:40.2893%;width:198px;"><p class="g-pstyle3">Iranian protests in a decade, with</p></div>
+                    <div id="g-ai2-8" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:50.6944%;margin-top:-8.1px;left:40.2893%;width:136px;"><p class="g-pstyle3">swift police retaliation</p></div>
+                    <div id="g-ai2-9" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:55.5477%;margin-top:-5.7px;left:6.2628%;width:31px;"><p class="g-pstyle2">21</p></div>
+                    <div id="g-ai2-10" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:68.768%;margin-top:-5.7px;left:6.236%;width:31px;"><p class="g-pstyle2">23</p></div>
+                    <div id="g-ai2-11" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:73.5758%;margin-top:-8.1px;left:38.0761%;width:198px;"><p class="g-pstyle3">Protests erupt in December 2025</p></div>
+                    <div id="g-ai2-12" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:76.1182%;margin-top:-8.1px;left:38.0761%;width:211px;"><p class="g-pstyle3">over a sharp drop in Iran&rsquo;s currency</p></div>
+                    <div id="g-ai2-13" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:81.9884%;margin-top:-5.7px;left:6.2094%;width:31px;"><p class="g-pstyle2">25</p></div>
+                    <div id="g-ai2-14" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.3943%;margin-top:-5.8px;left:12.3961%;width:27px;"><p class="g-pstyle4">0</p></div>
+                    <div id="g-ai2-15" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.3943%;margin-top:-5.8px;left:18.236%;width:33px;"><p class="g-pstyle4">20</p></div>
+                    <div id="g-ai2-16" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.3943%;margin-top:-5.8px;left:38.556%;width:33px;"><p class="g-pstyle4">80</p></div>
+                    <div id="g-ai2-17" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.3943%;margin-top:-5.8px;left:68.6628%;width:38px;"><p class="g-pstyle4">160</p></div>
+                    <div id="g-ai2-18" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.3943%;margin-top:-5.8px;left:44.7693%;width:38px;"><p class="g-pstyle4">100</p></div>
+                    <div id="g-ai2-19" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.3943%;margin-top:-5.8px;left:52.4761%;width:38px;"><p class="g-pstyle4">120</p></div>
+                    <div id="g-ai2-20" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.3943%;margin-top:-5.8px;left:60.6628%;width:38px;"><p class="g-pstyle4">140</p></div>
+                    <div id="g-ai2-21" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.3943%;margin-top:-5.8px;left:25.1693%;width:33px;"><p class="g-pstyle4">40</p></div>
+                    <div id="g-ai2-22" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:95.5638%;margin-top:-5.8px;left:31.6227%;width:33px;"><p class="g-pstyle4">60</p></div>
+                    <div id="g-ai2-23" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:98.4451%;margin-top:-5.8px;left:34.4227%;width:96px;"><p class="g-pstyle5">Weekly incidents</p></div>
                 </div>
-
-                <div class="map-container">
-                    <iframe src="ACLED_MENA_Map2.html" title="Interactive map of ACLED MENA events"></iframe>
-                </div>
-            </section>
-
-            <!-- About Section -->
-            <section class="section">
-                <h2>About This Data</h2>
-                <p>This visualization uses data from the Armed Conflict Location & Event Data Project (ACLED), with the largest limitation being ACLED's own Peaceful Protesting data. This project was meant to show how the 2025-26 Iran Protests compared to the last decade of protests in the region.</p>
-                <p>The map specifically focuses on incidents classified as "Excessive force against protesters" within the Middle East and North Africa region, though there are other significant confounding categories that could contribute to this analysis.</p>
-            </section>
+            </div>
         </div>
+
+        <hr class="section-rule">
+        <p class="section-label">The Map</p>
+        <h2 class="section-heading">Spread Across All 31 Provinces</h2>
+
+        <p>While the Iranian people are no strangers to government violence, the current crackdown
+            represents a roughly 300% increase in violent incidents recorded against protesters compared to the
+            previous high-water mark in November 2022.</p>
+
+        <p><a href="https://www.amnesty.org/en/latest/campaigns/2026/01/what-happened-at-the-protests-in-iran/">Amnesty International</a>
+            reports that Iranian security forces engaged protesters with small arms, mass arrests, and enforced disappearances
+            across all of Iran's 31 provinces. Amnesty confirmed at least one hospital was operating a makeshift morgue
+            with at least 205 body bags.</p>
+
+        <div class="note-box">
+            <strong>How to use this map:</strong> Use the timeline slider at the bottom to see how events evolved over time. Click individual markers for details about specific incidents.
+        </div>
+
+        <div class="figure">
+            <p class="figure-title">Interactive map of recorded incidents</p>
+            <p class="figure-subtitle">Excessive force against protesters, MENA region, 2016–present</p>
+            <div class="map-container">
+                <iframe src="ACLED_MENA_Map2.html" title="Interactive map of ACLED MENA events"></iframe>
+            </div>
+        </div>
+
+        <hr class="section-rule">
+        <p class="section-label">Methodology</p>
+        <h2 class="section-heading">About This Data</h2>
+
+        <p>This visualization uses data from the Armed Conflict Location &amp; Event Data Project (ACLED).
+            The map focuses on incidents classified as "Excessive force against protesters" within the
+            Middle East and North Africa region. The largest limitation is ACLED's own Peaceful Protesting
+            dataset, and other significant event categories that could broaden this analysis are not included.</p>
+
+        <p>This project was built to show how the 2025–26 Iran protests compare to the last decade of unrest across the region.</p>
+
     </div>
 
     <footer>
-        <div class="container">
-            <p>Data: <a href="https://acleddata.com/" target="_blank" rel="noopener">ACLED</a> | Visualization created with Python, Folium, and Altair</p>
-        </div>
+        <p>Data: <a href="https://acleddata.com/" target="_blank" rel="noopener">ACLED</a> &nbsp;&middot;&nbsp; Built with Python, Folium, and Altair &nbsp;&middot;&nbsp; <a href="https://github.com/ccb2195-ux/acled-mapping" target="_blank" rel="noopener">View on GitHub</a></p>
     </footer>
+
 </body>
 </html>

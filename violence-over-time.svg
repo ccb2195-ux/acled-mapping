@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 375 590">
+  <!-- Generator: Adobe Illustrator 30.3.0, SVG Export Plug-In . SVG Version: 2.1.3 Build 182)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13 {
+        isolation: isolate;
+      }
+
+      .st0, .st1, .st7 {
+        font-size: 12px;
+      }
+
+      .st0, .st3, .st7, .st10, .st11, .st12, .st13 {
+        font-family: ArialMT, Arial;
+      }
+
+      .st0, .st3, .st13 {
+        fill: #606060;
+      }
+
+      .st14 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .st14, .st15, .st16, .st17 {
+        fill: none;
+      }
+
+      .st1, .st2, .st4 {
+        font-family: Verdana-Bold, Verdana;
+      }
+
+      .st1, .st2, .st4, .st6 {
+        font-weight: 700;
+      }
+
+      .st2 {
+        font-size: 14px;
+      }
+
+      .st18 {
+        fill: #d0021b;
+        fill-opacity: .1;
+        stroke-opacity: .1;
+      }
+
+      .st18, .st15 {
+        stroke: #d0021b;
+      }
+
+      .st18, .st15, .st19 {
+        stroke-linejoin: round;
+      }
+
+      .st15 {
+        stroke-width: 1.5px;
+      }
+
+      .st15, .st17 {
+        stroke-linecap: square;
+      }
+
+      .st3, .st8, .st9 {
+        font-size: 9px;
+      }
+
+      .st4 {
+        font-size: 11px;
+      }
+
+      .st6 {
+        font-family: Arial-BoldMT, Arial;
+        font-size: 48px;
+      }
+
+      .st8, .st9 {
+        font-family: LucidaBright, 'Lucida Bright';
+      }
+
+      .st19 {
+        fill: #aaa;
+        stroke: #aaa;
+      }
+
+      .st19, .st17 {
+        stroke-width: .8px;
+      }
+
+      .st9 {
+        fill: #666;
+      }
+
+      .st10 {
+        font-size: 8px;
+      }
+
+      .st11, .st13 {
+        font-size: 10px;
+      }
+
+      .st12 {
+        font-size: 15px;
+      }
+
+      .st17 {
+        stroke: #ccc;
+      }
+    </style>
+  </defs>
+  <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+      <g id="line2d_1">
+        <path id="m5b4d58b0ce" class="st19" d="M-1593.9,255.9v3.5"/>
+      </g>
+      <g id="text_1">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-1603.2 269.8) scale(.8 1)"><tspan x="0" y="0">2015</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="xtick_2">
+      <g id="line2d_2">
+        <path id="m5b4d58b0ce1" class="st19" d="M-1538.4,255.9v3.5"/>
+      </g>
+      <g id="text_2">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-1547.7 269.8) scale(.8 1)"><tspan x="0" y="0">2016</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="xtick_3">
+      <g id="line2d_3">
+        <path id="m5b4d58b0ce2" class="st19" d="M-1482.7,255.9v3.5"/>
+      </g>
+      <g id="text_3">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-1492 269.8) scale(.8 1)"><tspan x="0" y="0">2017</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="xtick_4">
+      <g id="line2d_4">
+        <path id="m5b4d58b0ce3" class="st19" d="M-1427.2,255.9v3.5"/>
+      </g>
+      <g id="text_4">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-1436.5 269.8) scale(.8 1)"><tspan x="0" y="0">2018</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="xtick_5">
+      <g id="line2d_5">
+        <path id="m5b4d58b0ce4" class="st19" d="M-1371.7,255.9v3.5"/>
+      </g>
+      <g id="text_5">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-1380.9 269.8) scale(.8 1)"><tspan x="0" y="0">2019</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="xtick_6">
+      <g id="line2d_6">
+        <path id="m5b4d58b0ce5" class="st19" d="M-1316.1,255.9v3.5"/>
+      </g>
+      <g id="text_6">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-1325.4 269.8) scale(.8 1)"><tspan x="0" y="0">2020</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="xtick_7">
+      <g id="line2d_7">
+        <path id="m5b4d58b0ce6" class="st19" d="M-1260.5,255.9v3.5"/>
+      </g>
+      <g id="text_7">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-1269.7 269.8) scale(.8 1)"><tspan x="0" y="0">2021</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="xtick_8">
+      <g id="line2d_8">
+        <path id="m5b4d58b0ce7" class="st19" d="M-1204.9,255.9v3.5"/>
+      </g>
+      <g id="text_8">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-1214.2 269.8) scale(.8 1)"><tspan x="0" y="0">2022</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="xtick_9">
+      <g id="line2d_9">
+        <path id="m5b4d58b0ce8" class="st19" d="M-1149.4,255.9v3.5"/>
+      </g>
+      <g id="text_9">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-1158.7 269.8) scale(.8 1)"><tspan x="0" y="0">2023</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="xtick_10">
+      <g id="line2d_10">
+        <path id="m5b4d58b0ce9" class="st19" d="M-1093.9,255.9v3.5"/>
+      </g>
+      <g id="text_10">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-1103.2 269.8) scale(.8 1)"><tspan x="0" y="0">2024</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="xtick_11">
+      <g id="line2d_11">
+        <path id="m5b4d58b0ce10" class="st19" d="M-1038.2,255.9v3.5"/>
+      </g>
+      <g id="text_11">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-1047.5 269.8) scale(.8 1)"><tspan x="0" y="0">2025</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="xtick_12">
+      <g id="line2d_12">
+        <path id="m5b4d58b0ce11" class="st19" d="M-982.7,255.9v3.5"/>
+      </g>
+      <g id="text_12">
+        <g class="st5">
+          <g class="st5">
+            <g class="st5">
+              <text class="st8" transform="translate(-992 269.8) scale(.8 1)"><tspan x="0" y="0">2026</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_13">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-1606 242.5)"><tspan x="0" y="0">0</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_14">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-1611.5 216.7)"><tspan x="0" y="0">20</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_15">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-1611.5 191)"><tspan x="0" y="0">40</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_16">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-1611.5 165.2)"><tspan x="0" y="0">60</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_17">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-1611.5 139.5)"><tspan x="0" y="0">80</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_18">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-1617 113.7)"><tspan x="0" y="0">100</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_19">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-1617 88)"><tspan x="0" y="0">120</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_20">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-1617 62.2)"><tspan x="0" y="0">140</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_21">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-1617 36.5)"><tspan x="0" y="0">160</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st9" transform="translate(-1620.6 172.3) rotate(-90)"><tspan x="0" y="0">Weekly incidents</tspan></text>
+      </g>
+    </g>
+  </g>
+  <rect class="st16" x="-1565.1" y="25.8" width="681.8" height="228"/>
+  <path id="m3731ceb352" class="st18" d="M-1592,245.6v-7.7l1.1,3.9,1.1,2.6h1.1l1.1-1.3,1.1,1.3h1.1l2.1-1.3,2.1,1.3h29.8l10.6-1.3,1.1,1.3,3.2-2.6,1.1-1.3h1.1l1.1,3.9h2.1l1.1-2.6,2.1,2.6,1.1-3.9,7.5,2.6,2.1,1.3h6.4l1.1-1.3,2.1,1.3h7.5l5.3-1.3,1.1,1.3h11.7l1.1-1.3,3.2,1.3,2.1-1.3,1.1,1.3h6.4l1.1-1.3,1.1-5.1,1.1,6.4h1.1l1.1-2.6,2.1,1.3,1.1-1.3,5.3-1.3,1.1,2.6h2.1l1.1-1.3,1.1,1.3,2.1-2.6,3.2,3.9,1.1-2.6,1.1,2.6h3.2l2.1-1.3h3.2l1.1-3.9h3.2l1.1-3.9,1.1-1.3,1.1,3.9,1.1,1.3,1.1,1.3,1.1,1.3,1.1-1.3,1.1,3.9,1.1-1.3h1.1l1.1-3.9,1.1-5.1,1.1-14.2,1.1-10.3,1.1-1.3,1.1-5.1,1.1,12.9h1.1l1.1-2.6,1.1,27,1.1-3.9,1.1,1.3,1.1,6.4,1.1-7.7,1.1-6.4,1.1,10.3,1.1-2.6,1.1-5.1,1.1,6.4,1.1,1.3,1.1,1.3,1.1,2.6,1.1-1.3,1.1-10.3,1.1,5.1,1.1-1.3,1.1-14.2,1.1-14.2,1.1,14.2,1.1,1.3,1.1,3.9,1.1,5.1,1.1-6.4,1.1,14.2h1.1l1.1-6.4,1.1,5.1,1.1,3.9,1.1-9,1.1,7.7,1.1-1.3,1.1,1.3,1.1,2.6,1.1-2.6,1.1-3.9,1.1,2.6,1.1,3.9,1.1-12.9,1.1,3.9,1.1,6.4,1.1,2.6,1.1-11.6,1.1-9,1.1-1.3,2.1,21.9h2.1l3.2-1.3,2.1,1.3,2.1-1.3,2.1-1.3h3.2l1.1,1.3,1.1-1.3h1.1l1.1,2.6,1.1-3.9,1.1,2.6,1.1,1.3h1.1l1.1-2.6,1.1,2.6,1.1-1.3,1.1,1.3,1.1-6.4,1.1,6.4,1.1-6.4,1.1,3.9,1.1-9,1.1,3.9,1.1,2.6,1.1,1.3h1.1l1.1-2.6,1.1,2.6,1.1,3.9,1.1-6.4,1.1,3.9,1.1-1.3,1.1-5.1,1.1,6.4h1.1l1.1-1.3,1.1,2.6,1.1,1.3h5.3l1.1-1.3,2.1-2.6,2.1,2.6h1.1l3.2,1.3,1.1-2.6,2.1,2.6,2.1-1.3h1.1l1.1-3.9,1.1,3.9,1.1,1.3,1.1-2.6,2.1,1.3,1.1,1.3,1.1-1.3h11.7l1.1,1.3,1.1-1.3,1.1,1.3,1.1-1.3,1.1,1.3,5.3-2.6,2.1,2.6,1.1-1.3h1.1l1.1-1.3,1.1,2.6h4.3l1.1-12.9,1.1,11.6,1.1-64.4,1.1,9,1.1,55.3,1.1-3.9,1.1,3.9,1.1-3.9,1.1,5.1,1.1-1.3,1.1-2.6,1.1,3.9h1.1l1.1-2.6,1.1,1.3,1.1-2.6,2.1,3.9,2.1-2.6,1.1-14.2,5.3,16.7,1.1-1.3,2.1,1.3,1.1-1.3,1.1,1.3,7.5-2.6,2.1,2.6h3.2l2.1-2.6,1.1,2.6h20.2l1.1-3.9,1.1,1.3,1.1,1.3,1.1,1.3h4.3l1.1-15.4,1.1,7.7,1.1,3.9,1.1-3.9,1.1,6.4,1.1-7.7,1.1,2.6,1.1,2.6,1.1-7.7,1.1,9,1.1-2.6,1.1,5.1,1.1-1.3,1.1,1.3h1.1l2.1-1.3h1.1l3.2,1.3h1.1l1.1-5.1,2.1,5.1,2.1-1.3,2.1,1.3h5.3l1.1-1.3h2.1l3.2,1.3h6.4l1.1-1.3h2.1l1.1-2.6,1.1,3.9,1.1-1.3,1.1-2.6,1.1,3.9h1.1l1.1-1.3,1.1-5.1,2.1,6.4h36.2l1.1-5.1,2.1,1.3,3.2,3.9h2.1l2.1-2.6,1.1,2.6h5.3l7.5-1.3,1.1-10.3,1.1,9,1.1-1.3,3.2,3.9h1.1l1.1-3.9,1.1,3.9h3.2l1.1-3.9,3.2,3.9h4.3l4.3-1.3h1.1l7.5,1.3h14.9l2.1-1.3,1.1,1.3h1.1l2.1-2.6,1.1,2.6h2.1l1.1-16.7,1.1-189.2,1.1,176.3,3.2,28.3,3.2,1.3h4.3v1.3h-619.8l-6.5-.2h0Z"/>
+  <path class="st17" d="M-1623,255.9h681.8"/>
+  <rect class="st16" x="-1565.1" y="25.8" width="681.8" height="228"/>
+  <path class="st15" d="M-1592,237.9l1.1,3.9,1.1,2.6h1.1l1.1-1.3,1.1,1.3h1.1l2.1-1.3,2.1,1.3h29.8l10.6-1.3,1.1,1.3,3.2-2.6,1.1-1.3h1.1l1.1,3.9h2.1l1.1-2.6,2.1,2.6,1.1-3.9,7.5,2.6,2.1,1.3h6.4l1.1-1.3,2.1,1.3h7.5l5.3-1.3,1.1,1.3h11.7l1.1-1.3,3.2,1.3,2.1-1.3,1.1,1.3h6.4l1.1-1.3,1.1-5.1,1.1,6.4h1.1l1.1-2.6,2.1,1.3,1.1-1.3,5.3-1.3,1.1,2.6h2.1l1.1-1.3,1.1,1.3,2.1-2.6,3.2,3.9,1.1-2.6,1.1,2.6h3.2l2.1-1.3h3.2l1.1-3.9h3.2l1.1-3.9,1.1-1.3,1.1,3.9,3.2,3.9,1.1-1.3,1.1,3.9,1.1-1.3h1.1l1.1-3.9,1.1-5.1,1.1-14.2,1.1-10.3,1.1-1.3,1.1-5.1,1.1,12.9h1.1l1.1-2.6,1.1,27,1.1-3.9,1.1,1.3,1.1,6.4,1.1-7.7,1.1-6.4,1.1,10.3,1.1-2.6,1.1-5.1,1.1,6.4,2.1,2.6,1.1,2.6,1.1-1.3,1.1-10.3,1.1,5.1,1.1-1.3,2.1-28.3,1.1,14.2,1.1,1.3,1.1,3.9,1.1,5.1,1.1-6.4,1.1,14.2h1.1l1.1-6.4,1.1,5.1,1.1,3.9,1.1-9,1.1,7.7,1.1-1.3,1.1,1.3,1.1,2.6,1.1-2.6,1.1-3.9,1.1,2.6,1.1,3.9,1.1-12.9,1.1,3.9,1.1,6.4,1.1,2.6,1.1-11.6,1.1-9,1.1-1.3,2.1,21.9h2.1l3.2-1.3,2.1,1.3,4.3-2.6h3.2l1.1,1.3,1.1-1.3h1.1l1.1,2.6,1.1-3.9,1.1,2.6,1.1,1.3h1.1l1.1-2.6,1.1,2.6,1.1-1.3,1.1,1.3,1.1-6.4,1.1,6.4,1.1-6.4,1.1,3.9,1.1-9,1.1,3.9,1.1,2.6,1.1,1.3h1.1l1.1-2.6,1.1,2.6,1.1,3.9,1.1-6.4,1.1,3.9,1.1-1.3,1.1-5.1,1.1,6.4h1.1l1.1-1.3,1.1,2.6,1.1,1.3h5.3l3.2-3.9,2.1,2.6h1.1l3.2,1.3,1.1-2.6,2.1,2.6,2.1-1.3h1.1l1.1-3.9,1.1,3.9,1.1,1.3,1.1-2.6,2.1,1.3,1.1,1.3,1.1-1.3h11.7l1.1,1.3,1.1-1.3,1.1,1.3,1.1-1.3,1.1,1.3,5.3-2.6,2.1,2.6,1.1-1.3h1.1l1.1-1.3,1.1,2.6h4.3l1.1-12.9,1.1,11.6,1.1-64.4,1.1,9,1.1,55.3,1.1-3.9,1.1,3.9,1.1-3.9,1.1,5.1,1.1-1.3,1.1-2.6,1.1,3.9h1.1l1.1-2.6,1.1,1.3,1.1-2.6,2.1,3.9,2.1-2.6,1.1-14.2,5.3,16.7,1.1-1.3,2.1,1.3,1.1-1.3,1.1,1.3,7.5-2.6,2.1,2.6h3.2l2.1-2.6,1.1,2.6h20.2l1.1-3.9,3.2,3.9h4.3l1.1-15.4,1.1,7.7,1.1,3.9,1.1-3.9,1.1,6.4,1.1-7.7,2.1,5.1,1.1-7.7,1.1,9,1.1-2.6,1.1,5.1,1.1-1.3,1.1,1.3h1.1l2.1-1.3h1.1l3.2,1.3h1.1l1.1-5.1,2.1,5.1,2.1-1.3,2.1,1.3h5.3l1.1-1.3h2.1l3.2,1.3h6.4l1.1-1.3h2.1l1.1-2.6,1.1,3.9,1.1-1.3,1.1-2.6,1.1,3.9h1.1l1.1-1.3,1.1-5.1,2.1,6.4h36.2l1.1-5.1,2.1,1.3,3.2,3.9h2.1l2.1-2.6,1.1,2.6h5.3l7.5-1.3,1.1-10.3,1.1,9,1.1-1.3,3.2,3.9h1.1l1.1-3.9,1.1,3.9h3.2l1.1-3.9,3.2,3.9h4.3l4.3-1.3h1.1l7.5,1.3h14.9l2.1-1.3,1.1,1.3h1.1l2.1-2.6,1.1,2.6h2.1l1.1-16.7,1.1-189.2,1.1,176.3,3.2,28.3,3.2,1.3h4.3"/>
+  <g id="text_23">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st2" transform="translate(-1586.4 19)"><tspan x="0" y="0">Iran’s Violence Against Protestors Drives the Region</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st7" transform="translate(-1204.9 77.5)"><tspan x="0" y="0">Protests erupt in December 2025</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st7" transform="translate(-1204.9 91.9)"><tspan x="0" y="0">over a sharp drop in Iran’s currency</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line class="st16" x1="-1016.5" y1="72.5" x2="-983.4" y2="72.5"/>
+    <g>
+      <line class="st14" x1="-1016.5" y1="72.5" x2="-988.2" y2="72.5"/>
+      <path d="M-983.4,72.5c-2.2.8-5.1,2.2-6.7,3.7l1.3-3.7-1.3-3.7c1.7,1.5,4.5,2.8,6.7,3.7Z"/>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st7" transform="translate(-1522.9 133.9)"><tspan x="0" y="0">Water shortages spark the largest Iranian</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st7" transform="translate(-1522.9 148.3)"><tspan x="0" y="0">protests in a decade, with swift police retaliation</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line class="st16" x1="-1269.1" y1="152.1" x2="-1251.2" y2="188.7"/>
+    <g>
+      <line class="st14" x1="-1269.1" y1="152.1" x2="-1253.9" y2="183.2"/>
+      <path d="M-1251.2,188.7c-2.2-2.1-5.4-4.5-8-5.6l5-.5,3.5-3.6c-.8,2.8-.8,6.8-.5,9.8h0Z"/>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st0" transform="translate(-1586.4 37.4)"><tspan x="0" y="0">Weekly protest violence incidents across MENA as recorded by ACLED up to March 2026</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st6" transform="translate(-716.9 -182.4)"><tspan x="0" y="0">medium(490px)</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st6" transform="translate(-1536.2 -153.9)"><tspan x="0" y="0">full-size (700px)</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st6" transform="translate(49.3 -172.4)"><tspan x="0" y="0">mobile (375px)</tspan></text>
+      </g>
+    </g>
+  </g>
+  <path id="m5b4d58b0ce12" class="st19" d="M-756,257.4v3.5"/>
+  <path id="m5b4d58b0ce13" class="st19" d="M-716.9,257.4v3.5"/>
+  <path id="m5b4d58b0ce14" class="st19" d="M-677.8,257.4v3.5"/>
+  <path id="m5b4d58b0ce15" class="st19" d="M-638.8,257.4v3.5"/>
+  <path id="m5b4d58b0ce16" class="st19" d="M-599.8,257.4v3.5"/>
+  <path id="m5b4d58b0ce17" class="st19" d="M-560.7,257.4v3.5"/>
+  <path id="m5b4d58b0ce18" class="st19" d="M-521.6,257.4v3.5"/>
+  <path id="m5b4d58b0ce19" class="st19" d="M-482.6,257.4v3.5"/>
+  <path id="m5b4d58b0ce20" class="st19" d="M-443.5,257.4v3.5"/>
+  <path id="m5b4d58b0ce21" class="st19" d="M-404.5,257.4v3.5"/>
+  <path id="m5b4d58b0ce22" class="st19" d="M-365.4,257.4v3.5"/>
+  <path id="m5b4d58b0ce23" class="st19" d="M-326.3,257.4v3.5"/>
+  <g id="text_131">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-766.2 247.4)"><tspan x="0" y="0">0</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_141">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-771.7 221.6)"><tspan x="0" y="0">20</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_151">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-771.7 195.9)"><tspan x="0" y="0">40</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_161">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-771.7 170.1)"><tspan x="0" y="0">60</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_171">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-771.7 144.4)"><tspan x="0" y="0">80</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_181">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-777.2 118.7)"><tspan x="0" y="0">100</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_191">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-777.2 92.9)"><tspan x="0" y="0">120</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_201">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-777.2 67.2)"><tspan x="0" y="0">140</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_211">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(-777.2 41.4)"><tspan x="0" y="0">160</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st9" transform="translate(-783.8 177.3) rotate(-90)"><tspan x="0" y="0">Weekly incidents</tspan></text>
+      </g>
+    </g>
+  </g>
+  <rect class="st16" x="-152.3" y="175.4" width="479.2" height="228"/>
+  <path id="m3731ceb3521" class="st18" d="M-754.6,247.1v-7.7l.7,3.9.7,2.6h.7l.7-1.3.7,1.3h.7l1.5-1.3,1.5,1.3h21l7.5-1.3.7,1.3,2.2-2.6.7-1.3h.7l.7,3.9h1.5l.7-2.6,1.5,2.6.7-3.9,5.2,2.6,1.5,1.3h4.5l.7-1.3,1.5,1.3h5.2l3.7-1.3.7,1.3h8.2l.7-1.3,2.2,1.3,1.5-1.3.7,1.3h4.5l.7-1.3.7-5.1.7,6.4h.7l.7-2.6,1.5,1.3.7-1.3,3.7-1.3.7,2.6h1.5l.7-1.3.7,1.3,1.5-2.6,2.2,3.9.7-2.6.7,2.6h2.2l1.5-1.3h2.2l.7-3.9h2.2l.7-3.9.7-1.3.7,3.9.7,1.3.7,1.3.7,1.3.7-1.3.7,3.9.7-1.3h.7l.7-3.9.7-5.1.7-14.2.7-10.3.7-1.3.7-5.1.7,12.9h.7l.7-2.6.7,27,.7-3.9.7,1.3.7,6.4.7-7.7.7-6.4.7,10.3.7-2.6.7-5.1.7,6.4.7,1.3.7,1.3.7,2.6.7-1.3.7-10.3.7,5.1.7-1.3.7-14.2.7-14.2.7,14.2.7,1.3.7,3.9.7,5.1.7-6.4.7,14.2h.7l.7-6.4.7,5.1.7,3.9.7-9,.7,7.7.7-1.3.7,1.3.7,2.6.7-2.6.7-3.9.7,2.6.7,3.9.7-12.9.7,3.9.7,6.4.7,2.6.7-11.6.7-9,.7-1.3,1.5,21.9h1.5l2.2-1.3,1.5,1.3,1.5-1.3,1.5-1.3h2.2l.7,1.3.7-1.3h.7l.7,2.6.7-3.9.7,2.6.7,1.3h.7l.7-2.6.7,2.6.7-1.3.7,1.3.7-6.4.7,6.4.7-6.4.7,3.9.7-9,.7,3.9.7,2.6.7,1.3h.7l.7-2.6.7,2.6.7,3.9.7-6.4.7,3.9.7-1.3.7-5.1.7,6.4h.7l.7-1.3.7,2.6.7,1.3h3.7l.7-1.3,1.5-2.6,1.5,2.6h.7l2.2,1.3.7-2.6,1.5,2.6,1.5-1.3h.7l.7-3.9.7,3.9.7,1.3.7-2.6,1.5,1.3.7,1.3.7-1.3h8.2l.7,1.3.7-1.3.7,1.3.7-1.3.7,1.3,3.7-2.6,1.5,2.6.7-1.3h.7l.7-1.3.7,2.6h3l.7-12.9.7,11.6.7-64.4.7,9,.7,55.3.7-3.9.7,3.9.7-3.9.7,5.1.7-1.3.7-2.6.7,3.9h.7l.7-2.6.7,1.3.7-2.6,1.5,3.9,1.5-2.6.7-14.2,3.7,16.7.7-1.3,1.5,1.3.7-1.3.7,1.3,5.2-2.6,1.5,2.6h2.2l1.5-2.6.7,2.6h14.2l.7-3.9.7,1.3.7,1.3.7,1.3h3l.7-15.4.7,7.7.7,3.9.7-3.9.7,6.4.7-7.7.7,2.6.7,2.6.7-7.7.7,9,.7-2.6.7,5.1.7-1.3.7,1.3h.7l1.5-1.3h.7l2.2,1.3h.7l.7-5.1,1.5,5.1,1.5-1.3,1.5,1.3h3.7l.7-1.3h1.5l2.2,1.3h4.5l.7-1.3h1.5l.7-2.6.7,3.9.7-1.3.7-2.6.7,3.9h.7l.7-1.3.7-5.1,1.5,6.4h25.4l.7-5.1,1.5,1.3,2.2,3.9h1.5l1.5-2.6.7,2.6h3.7l5.2-1.3.7-10.3.7,9,.7-1.3,2.2,3.9h.7l.7-3.9.7,3.9h2.2l.7-3.9,2.2,3.9h3l3-1.3h.7l5.2,1.3h10.5l1.5-1.3.7,1.3h.7l1.5-2.6.7,2.6h1.5l.7-16.7.7-189.2.7,176.3,2.2,28.3,2.2,1.3h3v1.3h-435.6l11.5-.2h0Z"/>
+  <path class="st17" d="M-789.2,257.4h479.2"/>
+  <rect class="st16" x="-152.3" y="175.4" width="479.2" height="228"/>
+  <path class="st15" d="M-754.6,239.4l.7,3.9.7,2.6h.7l.7-1.3.7,1.3h.7l1.5-1.3,1.5,1.3h21l7.5-1.3.7,1.3,2.2-2.6.7-1.3h.7l.7,3.9h1.5l.7-2.6,1.5,2.6.7-3.9,5.2,2.6,1.5,1.3h4.5l.7-1.3,1.5,1.3h5.2l3.7-1.3.7,1.3h8.2l.7-1.3,2.2,1.3,1.5-1.3.7,1.3h4.5l.7-1.3.7-5.1.7,6.4h.7l.7-2.6,1.5,1.3.7-1.3,3.7-1.3.7,2.6h1.5l.7-1.3.7,1.3,1.5-2.6,2.2,3.9.7-2.6.7,2.6h2.2l1.5-1.3h2.2l.7-3.9h2.2l.7-3.9.7-1.3.7,3.9,2.2,3.9.7-1.3.7,3.9.7-1.3h.7l.7-3.9.7-5.1.7-14.2.7-10.3.7-1.3.7-5.1.7,12.9h.7l.7-2.6.7,27,.7-3.9.7,1.3.7,6.4.7-7.7.7-6.4.7,10.3.7-2.6.7-5.1.7,6.4,1.5,2.6.7,2.6.7-1.3.7-10.3.7,5.1.7-1.3,1.5-28.3.7,14.2.7,1.3.7,3.9.7,5.1.7-6.4.7,14.2h.7l.7-6.4.7,5.1.7,3.9.7-9,.7,7.7.7-1.3.7,1.3.7,2.6.7-2.6.7-3.9.7,2.6.7,3.9.7-12.9.7,3.9.7,6.4.7,2.6.7-11.6.7-9,.7-1.3,1.5,21.9h1.5l2.2-1.3,1.5,1.3,3-2.6h2.2l.7,1.3.7-1.3h.7l.7,2.6.7-3.9.7,2.6.7,1.3h.7l.7-2.6.7,2.6.7-1.3.7,1.3.7-6.4.7,6.4.7-6.4.7,3.9.7-9,.7,3.9.7,2.6.7,1.3h.7l.7-2.6.7,2.6.7,3.9.7-6.4.7,3.9.7-1.3.7-5.1.7,6.4h.7l.7-1.3.7,2.6.7,1.3h3.7l2.2-3.9,1.5,2.6h.7l2.2,1.3.7-2.6,1.5,2.6,1.5-1.3h.7l.7-3.9.7,3.9.7,1.3.7-2.6,1.5,1.3.7,1.3.7-1.3h8.2l.7,1.3.7-1.3.7,1.3.7-1.3.7,1.3,3.7-2.6,1.5,2.6.7-1.3h.7l.7-1.3.7,2.6h3l.7-12.9.7,11.6.7-64.4.7,9,.7,55.3.7-3.9.7,3.9.7-3.9.7,5.1.7-1.3.7-2.6.7,3.9h.7l.7-2.6.7,1.3.7-2.6,1.5,3.9,1.5-2.6.7-14.2,3.7,16.7.7-1.3,1.5,1.3.7-1.3.7,1.3,5.2-2.6,1.5,2.6h2.2l1.5-2.6.7,2.6h14.2l.7-3.9,2.2,3.9h3l.7-15.4.7,7.7.7,3.9.7-3.9.7,6.4.7-7.7,1.5,5.1.7-7.7.7,9,.7-2.6.7,5.1.7-1.3.7,1.3h.7l1.5-1.3h.7l2.2,1.3h.7l.7-5.1,1.5,5.1,1.5-1.3,1.5,1.3h3.7l.7-1.3h1.5l2.2,1.3h4.5l.7-1.3h1.5l.7-2.6.7,3.9.7-1.3.7-2.6.7,3.9h.7l.7-1.3.7-5.1,1.5,6.4h25.4l.7-5.1,1.5,1.3,2.2,3.9h1.5l1.5-2.6.7,2.6h3.7l5.2-1.3.7-10.3.7,9,.7-1.3,2.2,3.9h.7l.7-3.9.7,3.9h2.2l.7-3.9,2.2,3.9h3l3-1.3h.7l5.2,1.3h10.5l1.5-1.3.7,1.3h.7l1.5-2.6.7,2.6h1.5l.7-16.7.7-189.2.7,176.3,2.2,28.3,2.2,1.3h3"/>
+  <g id="text_231">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st1" transform="translate(-749.4 23.7)"><tspan x="0" y="0">Iran’s Violence Against Protestors Drives the Region</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st11" transform="translate(-537.3 72)"><tspan x="0" y="0">Protests erupt in December 2025</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st11" transform="translate(-537.3 84)"><tspan x="0" y="0">over a sharp drop in Iran’s currency</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line class="st16" x1="-375.6" y1="76.8" x2="-346.3" y2="76.8"/>
+    <g>
+      <line class="st14" x1="-375.6" y1="76.8" x2="-352.3" y2="76.8"/>
+      <path d="M-346.3,76.8c-2.8,1.1-6.4,2.9-8.5,4.8l1.7-4.8-1.7-4.8c2.2,1.9,5.7,3.7,8.5,4.8Z"/>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st11" transform="translate(-746.7 139.1)"><tspan x="0" y="0">Water shortages spark the largest Iranian</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st11" transform="translate(-746.7 151.1)"><tspan x="0" y="0">protests in a decade, with swift police retaliation</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line class="st16" x1="-556.9" y1="162.3" x2="-527.7" y2="187.6"/>
+    <g>
+      <line class="st14" x1="-556.9" y1="162.3" x2="-532.3" y2="183.7"/>
+      <path d="M-527.7,187.6c-2.8-1.1-6.7-2-9.6-2l4.4-2.5,1.8-4.7c.4,2.9,1.9,6.5,3.3,9.2h0Z"/>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st13" transform="translate(-749.4 42.1)"><tspan x="0" y="0">Weekly protest violence incidents across MENA as recorded by ACLED up to March 2026</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(-764.2 269.7)"><tspan x="0" y="0">2015</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(-603.4 269.7)"><tspan x="0" y="0">19</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(-682.1 269.7)"><tspan x="0" y="0">17</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(-525.7 269.7)"><tspan x="0" y="0">21</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(-447.5 269.8)"><tspan x="0" y="0">23</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(-369.5 269.9)"><tspan x="0" y="0">25</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g id="text_132">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(46.5 565.9)"><tspan x="0" y="0">0</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_142">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(68.4 565.9)"><tspan x="0" y="0">20</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_152">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(94.4 566.2)"><tspan x="0" y="0">40</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_162">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(118.6 566.4)"><tspan x="0" y="0">60</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_172">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(144.6 565.9)"><tspan x="0" y="0">80</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_182">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(167.9 566.1)"><tspan x="0" y="0">100</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_192">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(196.8 566.1)"><tspan x="0" y="0">120</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_202">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(227.5 566.1)"><tspan x="0" y="0">140</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="text_212">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st8" transform="translate(257.5 565.9)"><tspan x="0" y="0">160</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st9" transform="translate(129.1 583.7)"><tspan x="0" y="0">Weekly incidents</tspan></text>
+      </g>
+    </g>
+  </g>
+  <rect class="st16" x="225.4" y="31" width="479.2" height="228"/>
+  <rect class="st16" x="225.4" y="31" width="479.2" height="228"/>
+  <g>
+    <path id="m3731ceb3522" class="st18" d="M47.7,95.3h7.7l-3.9.7-2.6.7v.7l1.3.7-1.3.7v.7l1.3,1.5-1.3,1.5v21l1.3,7.5-1.3.7,2.6,2.2,1.3.7v.7l-3.9.7v1.5l2.6.7-2.6,1.5,3.9.7-2.6,5.2-1.3,1.5v4.4l1.3.7-1.3,1.5v5.2l1.3,3.7-1.3.7v8.2l1.3.7-1.3,2.2,1.3,1.5-1.3.7v4.4l1.3.7,5.1.7-6.4.7v.7l2.6.7-1.3,1.5,1.3.7,1.3,3.7-2.6.7v1.5l1.3.7-1.3.7,2.6,1.5-3.9,2.2,2.6.7-2.6.7v2.2l1.3,1.5v2.2l3.9.7v2.2l3.9.7,1.3.7-3.9.7-1.3.7-1.3.7-1.3.7,1.3.7-3.9.7,1.3.7v.7l3.9.7,5.1.7,14.2.7,10.3.7,1.3.7,5.1.7-12.9.7v.7l2.6.7-27,.7,3.9.7-1.3.7-6.4.7,7.7.7,6.4.7-10.3.7,2.6.7,5.1.7-6.4.7-1.3.7-1.3.7-2.6.7,1.3.7,10.3.7-5.1.7,1.3.7,14.2.7,14.2.7-14.2.7-1.3.7-3.9.7-5.1.7,6.4.7-14.2.7v.7l6.4.7-5.1.7-3.9.7,9,.7-7.7.7,1.3.7-1.3.7-2.6.7,2.6.7,3.9.7-2.6.7-3.9.7,12.9.7-3.9.7-6.4.7-2.6.7,11.6.7,9,.7,1.3.7-21.9,1.5v1.4l1.3,2.2-1.3,1.5,1.3,1.5,1.3,1.5v2.2l-1.3.7,1.3.7v.7l-2.6.7,3.9.7-2.6.7-1.3.7v.7l2.6.7-2.6.7,1.3.7-1.3.7,6.4.7-6.4.7,6.4.7-3.9.7,9,.7-3.9.7-2.6.7-1.3.7v.7l2.6.7-2.6.7-3.9.7,6.4.7-3.9.7,1.3.7,5.1.7-6.4.7v.7l1.3.7-2.6.7-1.3.7v3.7l1.3.7,2.6,1.5-2.6,1.5v.7l-1.3,2.2,2.6.7-2.6,1.5,1.3,1.5v.7l3.9.7-3.9.7-1.3.7,2.6.7-1.3,1.5-1.3.7,1.3.7v8l-1.3.7,1.3.7-1.3.7,1.3.7-1.3.7,2.6,3.7-2.6,1.5,1.3.7v.7l1.3.7-2.6.7v2.9l12.9.7-11.6.7,64.4.7-9,.7-55.3.7,3.9.7-3.9.7,3.9.7-5.1.7,1.3.7,2.6.7-3.9.7v.7l2.6.7-1.3.7,2.6.7-3.9,1.5,2.6,1.5,14.2.7-16.7,3.7,1.3.7-1.3,1.5,1.3.7-1.3.7,2.6,5.2-2.6,1.5v2.2l2.6,1.5-2.6.7v14.1l3.9.7-1.3.7-1.3.7-1.3.7v3l15.4.7-7.7.7-3.9.7,3.9.7-6.4.7,7.7.7-2.6.7-2.6.7,7.7.7-9,.7,2.6.7-5.1.7,1.3.7-1.3.7v.7l1.3,1.5v.7l-1.3,2.2v.7l5.1.7-5.1,1.5,1.3,1.5-1.3,1.5v3.7l1.3.7v1.4l-1.3,2.2v4.4l1.3.7v1.5l2.6.7-3.9.7,1.3.7,2.6.7-3.9.7v.7l1.3.7,5.1.7-6.4,1.5v25.1l5.1.7-1.3,1.5-3.9,2.2v1.5l2.6,1.5-2.6.7v3.6l1.3,5.2,10.3.7-9,.7,1.3.7-3.9,2.2v.7l3.9.7-3.9.7v2.1l3.9.7-3.9,2.2v3l1.3,3v.7l-1.3,5.2v10.4l1.3,1.5-1.3.7v.7l2.6,1.5-2.6.7v1.5l16.7.7,189.2.7-176.3.7-28.3,2.2-1.3,2.2v2.8h-1.3V95.3h.2Z"/>
+    <path class="st15" d="M55.5,95.3l-3.9.7-2.6.7v.7l1.3.7-1.3.7v.7l1.3,1.5-1.3,1.5v21l1.3,7.5-1.3.7,2.6,2.2,1.3.7v.7l-3.9.7v1.5l2.6.7-2.6,1.5,3.9.7-2.6,5.2-1.3,1.5v4.5l1.3.7-1.3,1.5v5.2l1.3,3.7-1.3.7v8.2l1.3.7-1.3,2.2,1.3,1.5-1.3.7v4.5l1.3.7,5.1.7-6.4.7v.7l2.6.7-1.3,1.5,1.3.7,1.3,3.7-2.6.7v1.5l1.3.7-1.3.7,2.6,1.5-3.9,2.2,2.6.7-2.6.7v2.2l1.3,1.5v2.2l3.9.7v2.2l3.9.7,1.3.7-3.9.7-3.9,2.2,1.3.7-3.9.7,1.3.7v.7l3.9.7,5.1.7,14.2.7,10.3.7,1.3.7,5.1.7-12.9.7v.7l2.6.7-27,.7,3.9.7-1.3.7-6.4.7,7.7.7,6.4.7-10.3.7,2.6.7,5.1.7-6.4.7-2.6,1.5-2.6.7,1.3.7,10.3.7-5.1.7,1.3.7,28.3,1.5-14.2.7-1.3.7-3.9.7-5.1.7,6.4.7-14.2.7v.7l6.4.7-5.1.7-3.9.7,9,.7-7.7.7,1.3.7-1.3.7-2.6.7,2.6.7,3.9.7-2.6.7-3.9.7,12.9.7-3.9.7-6.4.7-2.6.7,11.6.7,9,.7,1.3.7-21.9,1.5v1.5l1.3,2.2-1.3,1.5,2.6,3v2.2l-1.3.7,1.3.7v.7l-2.6.7,3.9.7-2.6.7-1.3.7v.7l2.6.7-2.6.7,1.3.7-1.3.7,6.4.7-6.4.7,6.4.7-3.9.7,9,.7-3.9.7-2.6.7-1.3.7v.7l2.6.7-2.6.7-3.9.7,6.4.7-3.9.7,1.3.7,5.1.7-6.4.7v.7l1.3.7-2.6.7-1.3.7v3.7l3.9,2.2-2.6,1.5v.7l-1.3,2.2,2.6.7-2.6,1.5,1.3,1.5v.7l3.9.7-3.9.7-1.3.7,2.6.7-1.3,1.5-1.3.7,1.3.7v8.2l-1.3.7,1.3.7-1.3.7,1.3.7-1.3.7,2.6,3.7-2.6,1.5,1.3.7v.7l1.3.7-2.6.7v3l12.9.7-11.6.7,64.4.7-9,.7-55.3.7,3.9.7-3.9.7,3.9.7-5.1.7,1.3.7,2.6.7-3.9.7v.7l2.6.7-1.3.7,2.6.7-3.9,1.5,2.6,1.5,14.2.7-16.7,3.7,1.3.7-1.3,1.5,1.3.7-1.3.7,2.6,5.2-2.6,1.5v2.2l2.6,1.5-2.6.7v14.2l3.9.7-3.9,2.2v3l15.4.7-7.7.7-3.9.7,3.9.7-6.4.7,7.7.7-5.1,1.5,7.7.7-9,.7,2.6.7-5.1.7,1.3.7-1.3.7v.7l1.3,1.5v.7l-1.3,2.2v.7l5.1.7-5.1,1.5,1.3,1.5-1.3,1.5v3.7l1.3.7v1.5l-1.3,2.2v4.5l1.3.7v1.5l2.6.7-3.9.7,1.3.7,2.6.7-3.9.7v.7l1.3.7,5.1.7-6.4,1.5v25.4l5.1.7-1.3,1.5-3.9,2.2v1.5l2.6,1.5-2.6.7v3.7l1.3,5.2,10.3.7-9,.7,1.3.7-3.9,2.2v.7l3.9.7-3.9.7v2.2l3.9.7-3.9,2.2v3l1.3,3v.7l-1.3,5.2v10.5l1.3,1.5-1.3.7v.7l2.6,1.5-2.6.7v1.5l16.7.7,189.2.7-176.3.7-28.3,2.2-1.3,2.2v3h0"/>
+  </g>
+  <g id="text_232">
+    <g class="st5">
+      <g class="st5">
+        <g class="st5">
+          <text class="st4" transform="translate(11.4 28.6)"><tspan x="0" y="0">Iran’s Violence Against Protestors Drives the Region</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st7" transform="translate(142.8 437.8)"><tspan x="0" y="0">Protests erupt in December 2025</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st7" transform="translate(142.8 452.2)"><tspan x="0" y="0">over a sharp drop in Iran’s currency</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line class="st16" x1="201.3" y1="463.5" x2="186.7" y2="489"/>
+    <g>
+      <line class="st14" x1="201.3" y1="463.5" x2="189.7" y2="483.7"/>
+      <path d="M186.7,489c.5-3,.7-6.9.2-9.8l3.3,3.9,5,.9c-2.7.9-6.1,3.1-8.4,5h0Z"/>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st7" transform="translate(151.1 273.5)"><tspan x="0" y="0">Water shortages spark the largest</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st7" transform="translate(151.1 287.9)"><tspan x="0" y="0">Iranian protests in a decade, with</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st7" transform="translate(151.1 302.3)"><tspan x="0" y="0">swift police retaliation</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g>
+    <line class="st16" x1="147.4" y1="299.8" x2="110.8" y2="312.4"/>
+    <g>
+      <line class="st14" x1="147.4" y1="299.8" x2="116.5" y2="310.4"/>
+      <path d="M110.8,312.4c2.3-1.9,5.1-4.8,6.5-7.3v5.1l3.1,3.9c-2.7-1.1-6.6-1.6-9.6-1.7Z"/>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st3" transform="translate(11.4 47)"><tspan x="0" y="0">Weekly protest violence incidents across MENA as recorded by ACLED up to March 2026</tspan></text>
+      </g>
+    </g>
+  </g>
+  <path id="m5b4d58b0ce24" class="st19" d="M37.5,92.7h-3.5"/>
+  <path id="m5b4d58b0ce25" class="st19" d="M37.5,131.7h-3.5"/>
+  <path id="m5b4d58b0ce26" class="st19" d="M37.5,170.8h-3.5"/>
+  <path id="m5b4d58b0ce27" class="st19" d="M37.5,209.9h-3.5"/>
+  <path id="m5b4d58b0ce28" class="st19" d="M37.5,248.9h-3.5"/>
+  <path id="m5b4d58b0ce29" class="st19" d="M37.5,287.9h-3.5"/>
+  <path id="m5b4d58b0ce30" class="st19" d="M37.5,327h-3.5"/>
+  <path id="m5b4d58b0ce31" class="st19" d="M37.5,366.1h-3.5"/>
+  <path id="m5b4d58b0ce32" class="st19" d="M37.5,405.1h-3.5"/>
+  <path id="m5b4d58b0ce33" class="st19" d="M37.5,444.1h-3.5"/>
+  <path id="m5b4d58b0ce34" class="st19" d="M37.5,483.3h-3.5"/>
+  <path id="m5b4d58b0ce35" class="st19" d="M37.5,522.3h-3.5"/>
+  <path class="st17" d="M37.5,59.5v479.2"/>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(14.4 95)"><tspan x="0" y="0">2015</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(23.5 251.7)"><tspan x="0" y="0">19</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(23.5 172.9)"><tspan x="0" y="0">17</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(23.5 329.4)"><tspan x="0" y="0">21</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(23.4 407.6)"><tspan x="0" y="0">23</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st10" transform="translate(23.3 485.6)"><tspan x="0" y="0">25</tspan></text>
+      </g>
+    </g>
+  </g>
+  <g id="ai2html-settings1" class="st5">
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 -9.5)"><tspan x="0" y="0">ai2html-settings</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 9.5)"><tspan x="0" y="0">settings_version: 0.121.1</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 28.5)"><tspan x="0" y="0">image_format: auto</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 47.5)"><tspan x="0" y="0">responsiveness: fixed</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 66.5)"><tspan x="0" y="0">include_resizer_script: true</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 85.5)"><tspan x="0" y="0">use_lazy_loader: false</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 104.5)"><tspan x="0" y="0">output: one-file</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 123.5)"><tspan x="0" y="0">html_output_path: ai2html-output/</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 142.5)"><tspan x="0" y="0">image_output_path: ai2html-output/</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 161.5)"><tspan x="0" y="0">image_source_path:</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 180.5)"><tspan x="0" y="0">local_preview_template:</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 199.5)"><tspan x="0" y="0">png_number_of_colors: 128</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 218.5)"><tspan x="0" y="0">jpg_quality: 80</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 237.5)"><tspan x="0" y="0">headline:</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 256.5)"><tspan x="0" y="0">leadin:</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 275.5)"><tspan x="0" y="0">notes:</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 294.5)"><tspan x="0" y="0">sources:</tspan></text>
+      </g>
+    </g>
+    <g class="st5">
+      <g class="st5">
+        <text class="st12" transform="translate(-2018.3 313.5)"><tspan x="0" y="0">credit:</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
