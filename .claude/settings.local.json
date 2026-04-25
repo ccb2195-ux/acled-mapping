@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python patch_map2.py)",
+      "Bash(python patch_map3.py)",
+      "Bash(python patch_map4.py)",
+      "Bash(python3 -c ' *)",
+      "Bash(python patch_map5.py)",
+      "Bash(rm patch_map4.py patch_map5.py)"
+    ]
+  }
+}
